@@ -4574,3 +4574,4 @@ WikEdDiff.WikEdDiffText = function ( text, parent ) {
 };
 
 // </syntaxhighlight>
+module.exports = WikEdDiff;

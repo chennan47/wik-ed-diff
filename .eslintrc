@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-extra-boolean-cast": "off",
+    "no-console": "off",
+    "max-len": "off",
+    "no-param-reassign": 0,
+    "no-unused-expressions": "off",
+    "new-cap": "off"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
+}
