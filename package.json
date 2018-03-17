@@ -1,0 +1,28 @@
+{
+  "name": "wik-ed-diff",
+  "version": "0.0.3",
+  "description": "wikEdDiff",
+  "repository": "chennan47/wik-ed-diff",
+  "homepage": "https://en.wikipedia.org/wiki/User:Cacycle/diff",
+  "author": "Cacycle (https://en.wikipedia.org/wiki/User:Cacycle)",
+  "license": "Public Domain",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "ava "
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-eslint": "^8.2.2",
+    "browser-env": "^3.2.5",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  },
+  "ava": {
+    "require": [
+      "./test/helpers/setup-browser-env.js"
+    ]
+  }
+}
